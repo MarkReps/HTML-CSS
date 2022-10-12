@@ -1,0 +1,79 @@
+@import 'utils.css';
+
+body{
+    margin: 0;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    z-index: 10;
+    position: relative;
+    background-color: #000000;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header > div > a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar > a:not(:last-child){
+    margin-right: 50px;
+}
+
+.custome-btn{
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    padding: 12px 20px;
+}
+
+.header-login{
+    margin-right: 30px;
+}
+
+.content{
+
+}
+
+.intro{
+    width: 100%;
+    top: -100px;
+    bottom: 0;
+    position: relative;
+}
+
+.intro-content{
+    top: 145px;
+    position: absolute;
+    left: 55px;
+    width: 365px;
+
+}
+
+.intro-content > h2{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.intro-content > h5{
+    color: #ffffff;
+}
+
+.intro-content > p{
+    color:#ffffff;
+}
